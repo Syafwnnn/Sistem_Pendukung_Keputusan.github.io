@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>Sistem Pendukung Keputusan</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Sistem Pendukung Keputusan</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Beranda</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Tentang</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#location" class="nav__link">Lokasi</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Kontak</a>
+                        </li>
+
+                        <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--=============== BERANDA ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+
+                    <div class="home__data">
+                        <h1 class="home__title">Sistem Informasi <br> Pemilihan Keputusan </h1>
+                        <p class="home__description">Menggunakan Metode Analytical Hierarchy Process (AHP)</p>
+
+                        <a href="ahp/index.php?m=login" class="button">Login</a>
+                        <a href="ahp/index.php?m=daftar" class="button">Registrasi</a>
+                    </div>   
+                    
+                    <img class="home" src="images/Beranda.svg">
+                    </img>
+
+                </div>
+            </section>
+
+            <!--=============== TENTANG ===============-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+
+                    <img class="about" src="images/Tentang.svg">
+                    </img>
+
+                    <div class="about__data">
+                        <h2 class="section__title-center">Sistem Informasi <br> Pemilihan Keputusan</h2>
+                        <p class="about__description">Sistem pendukung keputusan (SPK) adalah bagian dari sistem informasi berbasis komputer yang dipakai untuk mendukung pengambilan keputusan dalam suatu organisasi atau perusahaan. 
+                            SPK ini menggunakan metode Analytical Hierarchy Process (AHP) sebagai sistem analisisnya.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== BIODATA ===============-->
+            <section class="biodata section container">
+                <div class="biodata__container grid">
+                    <div class="biodata__data">
+                        <h2 class="section__title-center">Biodata <br> Pembuat </h2>
+                        <p class="biodata__description">When your order reaches you, we have the health safety protocols, 
+                            so that you are protected from any disease. Watch the video of how the delivery is made.
+                        </p>
+                    </div>
+
+                    <img class="biodata" src="images/Profil.svg">
+                    </img>
+                </div>
+            </section>
+
+            <!--=============== LOKASI ===============-->
+            <section class="location section container" id="location">
+                <h2 class="location__title">Lokasi <br> Penelitian</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1127.5975400307075!2d119.89504237230793!3d-0.8377495475502651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8be943167015bd%3A0x4215f5a21d4f395f!2sProdi%20Statistika%2C%20FMIPA%20UNTAD!5e0!3m2!1sid!2sid!4v1696824153736!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+            <!--=============== KONTAK ===============-->
+            <section class="contact section container" id="contact">
+                <div class="contact__container grid">
+                    <div class="contact__content">
+                        <h2 class="section__title-center">Hubungi Admin </h2>
+                        <p class="contact__description">Silahkan hubungi admin apabila anda masih kurang mengerti tentang analisis dalam sistem informasi pemilihan keputusan ini.</p>
+                    </div>
+
+                    <ul class="contact__content grid">
+                        <li class="contact__address">Telefon: <span class="contact__information">0822-9285-3962</span></li>
+                        <li class="contact__address">Email:  <span class="contact__information">moh.syafwan503@gmail.com</span></li>
+                        <li class="contact__address">Lokasi: <span class="contact__information">Palu - Sulawesi Tengah</span></li>
+                    </ul>
+
+                    <div class="contact__content">
+                        <a href="#" class="button">Kontak</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <p class="footer__copy">&#169; Moh. Syafwan I Djuru. 2023</p>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+        </a>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
